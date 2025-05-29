@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZK2 & DIFF - Artiste </title>  
+  <style>
+    /* Reset */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffffff;
+    }
+    body {
+      display: flex; flex-direction: column; min-height: 100vh;
+      background: #121212;
+    }
+    header {
+      background: #501313;
+      padding: 0%;
+      text-align: center;
+      position: sticky; top: 0; z-index: 10;
+      box-shadow: 0 2px 10px rgba(168, 37, 37, 0.5);
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 900;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    header p.slogan {
+      margin-top: 8px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #fff;
+      font-style: italic;
+    }
+    main {
+      flex: 1;
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .photo-profil {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .photo-profil img {width: 280px;
+      max-width: 30vw;
+      border-radius: 30px;
+      box-shadow: 0 0 10px; #571919cc;
+    }
+    .bio {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.15rem;
+      line-height: 1.5;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .galerie {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+    .galerie img {
+      width: 25%;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 0 30px  #5f1919cc;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .galerie img:hover {
+      transform: scale(1.05);
+    }
+    .liens-musique, .reseaux {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+    .liens-musique a, .reseaux a {
+      background: #960c0c;
+      padding: 12px 20px;
+      border-radius: 30px;
+      color: #ffffff;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .liens-musique a:hover, .reseaux a:hover {
+      background: #5f1212;
+    }
+    footer {
+      background: #000000;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9rem;
+     color: #504d4d;
+    }
+    footer a {
+      color: #ffffff; 
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ZK2 & DIFF</h1>
+  <p>Artistes – Cameroun</p>
+  <p class="slogan">Tu connais ou pas ?</p>
+</header>
+
+<main>
+  <section class="photo-profil">
+    <img src="photoduo.JPG" alt="photoduo f" />
+  </section>
+
+  <section class="bio">
+    <h2>Biographie</h2>
+    <p>
+      ZK2 & DIFF, c’est l’union de deux esprits, une seule vision. Duo d’artistes passionnés issus de la street et du cœur, ils mixent vérité, énergie et mélodie pour créer une vibe unique. Engagés, authentiques et déterminés, ils imposent leur signature dans le paysage musical urbain. Chaque son raconte une histoire, chaque mot frappe juste. Bienvenue dans l’univers MD.
+    </p>
+  </section>
+
+  <section class="galerie">
+    <img src="photogalerie.JPEG" alt="photogalerie" />
+  </section>
+
+  <section class="liens-musique">
+    <a href="https://youtube.com/@zk2676?si=0_RyxX_F4bJkAilw" target="_blank" rel="noopener noreferrer">YouTube</a>
+    <a href="https://open.spotify.com/artist/2JX5WyPH9U0Ir31i2gvEUu?si=DhnMtQ_eSRuVlcLNXrVgmg" target="_blank" rel="noopener noreferrer">Spotify</a>
+<a href="https://music.apple.com/cm/artist/zk2-diff/1795416200" target="_blank" rel="noopener noreferrer">Apple Music</a>
+    <a href="https://www.boomplay.com/share/artist/106144580?srModel=COPYLINK&srList=IOS" target="_blank" rel="noopener noreferrer">Boomplay</a>
+    <a href="https://audiomack.com/zketdiff" target="_blank" rel="noopener noreferrer">Audiomack</a>
+  </section>
+
+  <section class="reseaux">
+    <a href="https://www.facebook.com/share/1LUUNsTHMg/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">Facebook</a>
+    <a href="https://www.tiktok.com/@zkdiff3?_t=ZT-8whlM8P1yiB&_r=1" target="_blank" rel="noopener noreferrer">TikTok</a>
+  </section>
+</main>
+
+<footer>
+  Contact : <a href="mailto:zketdiff@gmail.com">zketdiff@gmail.com</a>
+ <footer>
+    <p>&copy; 2025 ZK2 & DIFF. Tous droits réservés.</p>
+ </footer>
+</body>
+</html>
+
+
+
